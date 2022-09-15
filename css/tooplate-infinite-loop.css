@@ -55,7 +55,7 @@ blockquote {
 }
 
 .tm-text-primary {
-  color: #37A;
+  color: rgb(97, 51, 170);
 }
 
 .tm-font-big {
@@ -101,7 +101,7 @@ blockquote {
 }
 
 .tm-navbar.scroll .navbar-brand {
-  color: #369;
+  color: rgb(58, 51, 153);
 }
 
 .nav-item {
