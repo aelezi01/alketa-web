@@ -75,7 +75,7 @@
             <div class="row tm-content-box">
                 <div class="col-lg-12 col-xl-12">
                     <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4 tm-section-title">Who is Alkata Hystuma?</h2>
+                        <h2 class="tm-text-primary mb-4 tm-section-title">Who is Alketa Hystuma?</h2>
                         <p class="mb-4 tm-intro-text">
                           Alketa Hystuma is a brilliant cunsultant with over 10 years of experience in the field. 
                           Located in London, a metropolitan city with a substantial flow of immigrant and asylum seekers, Alketa has been at the forefront of the metaphorical battle, supporting first generation immigrants with the difficult task of dealing with legal paperwork.
@@ -101,7 +101,8 @@
                     <div class="tm-intro-text-container">
                         <h2 class="tm-text-primary mb-4 tm-section-title">What We Do</h2>
                         <p class="mb-4 tm-intro-text">
-                          This is Infinite Loop, free Bootstrap 4.0 HTML template with a parallax effect. This layout is what you can modify and use for your websites. Please spread a word to your friends about our website. Thank you for supporting us. If you have any question, you can contact us or chat with us on our <a href="https://fb.com/tooplate">Tooplate Facebook page</a>.</p>
+                          We offer a full range of services which includes, but is not limited to, the below:
+                        </p>
                     </div>
                 </div>
 
@@ -113,9 +114,14 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Market Analysis</h2>
+                        <h2 class="tm-text-primary mb-4">Benefits claims</h2>
                         <p class="mb-4 tm-intro-text">
-                          Praesent sed pharetra lorem, blandit convallis mi. Aenean ornare elit ac metus lacinia, sed iaculis nibh semper. Pellentesque est urna.</p>
+                          <li>Child benefits</li>  
+                          <li>DHP - Discretionary Housing Payments Benefit</li>  
+                          <li>Housing Benefits</li>  
+                          <li>High Income Child Benefit Tax Charge</li>  
+                          <li>Personal Independence Payment</li>
+                        </p>
                     </div>
                 </div>
                 
@@ -124,9 +130,14 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Fast Support</h2>
+                        <h2 class="tm-text-primary mb-4">Immigration</h2>
                         <p class="mb-4 tm-intro-text">
-                          Credit goes to <a rel="nofollow" href="https://www.pexels.com">Pexels</a> website for all images used in this template. Cras condimentum mi et sapien dignissim luctus.</p>
+                          <li>British Passport Application</li>
+                          <li>Settled and pre-settled status applications</li>
+                          <li>Visa Applications (inc. spouse visa, extensions and more)</li>
+                          <li>British Naturalisation</li>
+                          <li>Family Reunion</li>
+                        </p>
                     </div>
                 </div>
 
@@ -138,13 +149,14 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4">Top Security</h2>
+                        <h2 class="tm-text-primary mb-4">Bespoke Writing Services</h2>
                         <p class="mb-4 tm-intro-text">
-                      You have <strong>no</strong> authority to post this template as a ZIP file on your template collection websites. You can <strong>use</strong> this template for your commercial websites.</p>
-                          
-                          <div class="tm-continue">
+                          <li>CV</li>                                               
+                          <li>Cover Letter</li>
+                          <li>Letters that fit your needs</li>
+                          <!-- <div class="tm-continue">
                             <a href="#testimonials" class="tm-intro-text tm-btn-primary">Learn More</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 
@@ -154,13 +166,20 @@
                 <div class="col-lg-5">
                     <div class="tm-intro-text-container">
                       <h2 class="tm-text-primary mb-4">Social Work</h2>
-                        <p class="mb-4 tm-intro-text">
+                      <p class="mb-4 tm-intro-text">
+                        <li>Tax-Free Childcare</li>
+                        <li>Sure Start Maternity Grant</li>
+                        <li>Paternity pay and leave</li>
+                        <li>30 hours free childcare</li>
+                        <li>15 hours free childcare for 3 and 4-year-olds</li>
+                      </p>
+                        <!-- <p class="mb-4 tm-intro-text">
                       You can change <a href="https://fontawesome.com/icons?d=gallery">Font Awesome icons</a> by either <b><em>fas or far</em></b> in the HTML codes. For Examples:<br>
-                      <em>&lt;i class=&quot;fas fa-users&quot;&gt;&lt;i class=&quot;far fa-chart-bar&quot;&gt;</em> </p>
+                      <em>&lt;i class=&quot;fas fa-users&quot;&gt;&lt;i class=&quot;far fa-chart-bar&quot;&gt;</em> </p> -->
                           
-                          <div class="tm-continue">
+                          <!-- <div class="tm-continue">
                             <a href="#testimonials" class="tm-intro-text tm-btn-primary">Details</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
@@ -223,6 +242,7 @@
     
       <div class="container tm-container-contact">
         
+        
         <div class="row">
             
             <div class="text-center col-12">
@@ -233,12 +253,25 @@
             </div>
             
             <div class="col-sm-12 col-md-6">
-              <form action="" method="get">
-                <input id="name" name="name" type="text" placeholder="Your Name" class="tm-input" required />
-                <input id="email" name="email" type="email" placeholder="Your Email" class="tm-input" required />
+              <form action="PHP/contact-form.php" method="POST" name="contact_form">
+                <input id="name" type="text" name="name" placeholder="Your Name" class="tm-input" required />
+                <input id="email"  type="email" name="email" placeholder="Your Email" class="tm-input" required />
                 <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input" required></textarea>
-                <button type="submit" class="btn tm-btn-submit">Submit</button>
+                <button type="submit" class="btn tm-btn-submit" value="Submit">Submit</button>
               </form>
+
+              <form method=”post” name=”contact_form” action='PHP/contact-form.php'> Your Name: 
+                
+                <input type=”text” name=”name”> Email Address:
+
+                <input type=”text” name=”email”> Message:
+                
+                <textarea name=”message”></textarea>
+                
+                <button type=”submit” value=”Submit”>Submit</button>  
+                
+                </form>
+
             </div>
             
             <div class="col-sm-12 col-md-6">
@@ -251,7 +284,7 @@
                 </div>
                 
                 <div class="contact-item">
-                  <a rel="nofollow" href="https://www.google.com/maps" class="item-link">
+                  <a rel="follow" href="https://www.google.com/maps/place/EE/@51.5434724,-0.0103537,17z/data=!3m2!4b1!5s0x48761d64688357fb:0x2b1ebed0331e5645!4m5!3m4!1s0x48761ba00e70fca7:0xac93330a2c64ebf8!8m2!3d51.5434691!4d-0.005869" class="item-link" target="_blank">
                       <i class="fas fa-2x fa-map-marker-alt mr-4"></i>
                       <span class="mb-0">Our Location</span>
                   </a>              
@@ -263,19 +296,13 @@
                       <span class="mb-0">+44 781 345 8483</span>
                   </a>              
                 </div>
-                
-                <div class="contact-item">&nbsp;</div>
-            
             </div>
-            
-            
-        </div><!-- row ending -->
-        
+        </div>        
       </div>
 
       	<footer class="text-center small tm-footer">
           <p class="mb-0">
-          Copyright &copy; 2022 Alketa Hystuma .
+          Copyright &copy; 2022 Alketa Hystuma.
           Designed by
           <a rel="nofollow" href="https://uk.linkedin.com/in/areda-e" title="HTML templates">Areda</a>
           &
