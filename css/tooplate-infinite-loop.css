@@ -260,6 +260,11 @@ blockquote {
   font-weight: 500;
 }
 
+.tm-sub-section-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
 .tm-intro-text {
   font-size: 1.2rem;
 }
