@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Alketa Hystuma</title>
+    <title>Keda Consulting</title>
     <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
@@ -21,7 +21,7 @@
       <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
         <div class="container">   
           <div class="tm-next">
-              <a href="#infinite" class="navbar-brand">Alketa Hystuma</a>
+              <a href="#infinite" class="navbar-brand">Keda Consulting</a>
           </div>             
             
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,7 +50,7 @@
       <!-- Home section -->
       <div class="text-center tm-hero-text-container">
         <div class="tm-hero-text-container-inner">
-            <h2 class="tm-hero-title">Alketa Hystuma</h2>
+            <h2 class="tm-hero-title">Keda Consulting</h2>
             <p class="tm-hero-subtitle">
               Consulting Services
             </p>
@@ -72,20 +72,16 @@
             <div class="row tm-content-box">
                 <div class="col-lg-12 col-xl-12">
                     <div class="tm-intro-text-container">
-                        <h2 class="tm-text-primary mb-4 tm-section-title">Who is KEDA?</h2>
-                        <p class="mb-4 tm-intro-text">KEDA is a consultancy-based company in London. KEDA is a single-purpose company which focuses to support and assist with matters of welfare benefits, educational applications, completing complex forms; housing, homelessness and other issues.
-                          KEDA is specialised in welfare benefits and advocacy.
-                          Appeals, reviews and mandatory reconsiderations; writing cvs, cover letters, signs posting and referring to appropriate agencies and other issue …
-                          Her executive director, Alketa  Hystuma, Holds a BA (Hons) Law/sociology graduate with extensive and transferable (advice&advocacy) cross industry experience.
-                          Dynamic and dedicated, experienced in assisting people in need; and identifying new ways to help organisation grow by means of analysis and innovation.
-                          Highly skilled, strategic and offer development and leadership resulting in high-performance.
-                          Personal goal is to help and provide the best assistance in order to empower and support communities to a greater level.
-                        </p>
-                        <h2 class="tm-text-primary mb-4 tm-section-title">Who is behind KEDA?</h2>
+                        <h2 class="tm-text-primary mb-4 tm-section-title">What is Keda Consulting?</h2>
                         <p class="mb-4 tm-intro-text">
-                          Alketa Hystuma is a brilliant cunsultant with over 10 years of experience in the field. 
-                          Located in London, a metropolitan city with a substantial flow of immigrant and asylum seekers, Alketa has been at the forefront of the metaphorical battle, supporting first generation immigrants with the difficult task of dealing with legal paperwork.
-                          For a more detailed description of her past experience, you can either contact her <a href="#contact">here</a> 
+                          KEDA is a consultancy-based company in London. KEDA is a single-purpose company which focuses on supporting and assisting with matters of welfare benefits, educational applications, completing complex forms; housing, homelessness and other issues. 
+                          <br>KEDA is specialised in welfare benefits and advocacy .
+                          <h4 class="tm-text-primary mb-4 tm-sub-section-title">Executive Director</h4>
+                          Her executive director, Alketa  Hystuma , Holds a BA (Hons) Law/sociology graduate with extensive and transferable (advice&advocacy) cross industry experience.
+                          <br>Dynamic and dedicated, experienced in assisting people in need; and identifying new ways to help organisations grow by means of analysis and innovation. Highly skilled, strategic and offer development and leadership resulting in high-performance.
+                          <br>Personal goal is to help and provide the best assistance in order to empower and support communities to a greater level.
+                          <br><br>Over 12 years expert experience in advice and advocacy sectors, working with NGOs and charity organisation such as LmLas, AFRIL, Citizen advice, Hope programme, New Europeans, Alternatives, Refugees council, local Carers and children; Local councils such as Lewisham, Newham, Enfield, Redbridge, Haringey etc.
+                          <br><br><br>For a more detailed description of her past experience, you can either contact her <a href="#contact">here</a> 
                           or reach out on <a href="https://www.linkedin.com/in/alketa-h-68a14633">linkedin</a>.</p>
                     </div>
                 </div>
@@ -127,6 +123,7 @@
                           <li>Housing Benefits</li>  
                           <li>High Income Child Benefit Tax Charge</li>  
                           <li>Personal Independence Payment</li>
+                          
                         </p>
                     </div>
                 </div>
@@ -185,6 +182,7 @@
       
     </section>
     
+   
 
     <!-- Contact -->
     <section id="contact" class="tm-section-pad-top tm-parallax-2">
@@ -202,13 +200,14 @@
             </div>
             
             <div class="col-sm-12 col-md-6">
-              <form action="PHP/contact-form.php" method="POST" name="contact_form">
-                <input id="name" type="text" name="name" placeholder="Your Name" class="tm-input" required />
-                <input id="email"  type="email" name="email" placeholder="Your Email" class="tm-input" required />
-                <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input" required></textarea>
+              <form action="PHP/contact-form.php" method="post">
+                <input id="name" type="text" name="visitor_name" placeholder="Name*" pattern=[A-Z\sa-z]{3,20} class="tm-input" required />
+                <input id="email"  type="email" name="visitor_email" placeholder="Email*" class="tm-input" required />
+                <input id="reason"  type="reason" name="email_reason" placeholder="Reason for contacting us" class="tm-input"/>
+                <textarea id="message" name="visitor_message" rows="8" placeholder="Message*" class="tm-input" required></textarea>
                 <button type="submit" class="btn tm-btn-submit" value="Submit">Submit</button>
               </form>
-
+<!-- 
               <form method=”post” name=”contact_form” action='PHP/contact-form.php'> Your Name: 
                 
                 <input type=”text” name=”name”> Email Address:
@@ -219,7 +218,7 @@
                 
                 <button type=”submit” value=”Submit”>Submit</button>  
                 
-                </form>
+                </form> -->
 
             </div>
             
@@ -233,7 +232,7 @@
                 </div>
                 
                 <div class="contact-item">
-                  <a rel="follow" href="https://www.google.com/maps/place/EE/@51.5434724,-0.0103537,17z/data=!3m2!4b1!5s0x48761d64688357fb:0x2b1ebed0331e5645!4m5!3m4!1s0x48761ba00e70fca7:0xac93330a2c64ebf8!8m2!3d51.5434691!4d-0.005869" class="item-link" target="_blank">
+                  <a rel="follow" href="https://www.google.com/maps/place/Queens+Wood+Lodge,+42+Muswell+Hill+Rd,+London+N10+3JP/@51.5815018,-0.1486067,17z/data=!3m1!4b1!4m5!3m4!1s0x48761a343afbdac1:0xfd8ceaf24479bbdc!8m2!3d51.5814985!4d-0.146418" class="item-link" target="_blank">
                       <i class="fas fa-2x fa-map-marker-alt mr-4"></i>
                       <span class="mb-0">Our Location</span>
                   </a>              
@@ -253,9 +252,9 @@
           <p class="mb-0">
           Copyright &copy; 2022 Alketa Hystuma.
           Designed by
-          <a rel="nofollow" href="https://uk.linkedin.com/in/areda-e" title="HTML templates">Areda</a>
+          <a rel="nofollow" href="https://uk.linkedin.com/in/areda-e" title="HTML templates" target="_blank">Areda</a>
           &
-          <a rel="nofollow" href="https://uk.linkedin.com/in/enes-elezi-22b370101" title="HTML templates">Enes</a></p>
+          <a rel="nofollow" href="https://uk.linkedin.com/in/enes-elezi-22b370101" title="HTML templates" target="_blank">Enes</a></p>
         </footer>
 
     </section>
@@ -333,7 +332,7 @@
       $(function(){
         // Hero Section - Background Parallax
         background_image_parallax($(".tm-parallax"), 0.30, false);
-        background_image_parallax_2($("#contact"), 0.80);     
+        background_image_parallax_2($("#contact"), 0.80);   
         
         // Handle window resize
         window.addEventListener('resize', function(){
